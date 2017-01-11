@@ -1,7 +1,7 @@
 /*
 //////////////////////////////////////////////////////
 
-FREE HTML5 TEMPLATE 
+FREE HTML5 TEMPLATE
 DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
@@ -1215,10 +1215,10 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   font-size: 18px;
 }
 
-/* 
+/*
 ========================================
 
-Components 
+Components
 
 ========================================
 */
@@ -1867,3 +1867,25 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.blur {
+    position: absolute;
+    top:50%;
+    background: inherit;
+    box-shadow: 0 4px 12px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+/* ブラー効果 */
+.blur:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    -webkit-filter: blur(10px) saturate(2);
+    -moz-filter: blur(10px) saturate(2);
+    filter: blur(10px) saturate(2);
+    filter: url(../img/filters.xml#blur_saturate);
+}
