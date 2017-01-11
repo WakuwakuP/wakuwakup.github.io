@@ -1,7 +1,9 @@
 <Files ~ "\.(htaccess|htpasswd)$">
 deny from all
 </Files>
- 
+
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
 RewriteRule ^(.*)index.html$ http://wakuwakup.net/$1 [R=301,L]
+
+DirectoryIndex index.html index.cgi index.php .ht
