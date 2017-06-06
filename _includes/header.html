@@ -26,22 +26,20 @@
           </ul>
         </li>
         <li>
-          <a href="https://wakuwakup.net/about.html" class="fh5co-sub-ddown">About</a>
+          <a href="https://wakuwakup.net/about.html" class="fh5co-sub-ddown">Blogs</a>
            <ul class="fh5co-sub-menu">
-            <li><a href="https://wakuwakup.net/about.html#Skills" class="smoothscroll">Skills</a></li>
-            <li><a href="https://wakuwakup.net/about.html#Hobbys" class="smoothscroll">Hobbys</a></li>
-            <li><a href="https://wakuwakup.net/about.html#Education" class="smoothscroll">Education</a></li>
+            <li class="smoothscroll">
+            {% for category in site.categories %}
+             <a>{{ category[0] }}</a>
+             <ul class="fh5co-sub-menu">
+             {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %} {% endfor %} {% endfor %}
+             </ul>
+            {% endfor %}
+            </li>
+            <li><a href="https://wakuwakup.net/about.html" class="smoothscroll">About</a></li>
           </ul>
-        </li>
-        <li>
-        {% for category in site.categories %}
-          <a>{{ category[0] }}</a>
-          <ul>
-            {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %} {% endfor %} {% endfor %}
-          </ul>
-        {% endfor %}
         </li>
       </ul>
     </nav>
