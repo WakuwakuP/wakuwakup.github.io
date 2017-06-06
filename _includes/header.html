@@ -33,6 +33,16 @@
             <li><a href="https://wakuwakup.net/about.html#Education" class="smoothscroll">Education</a></li>
           </ul>
         </li>
+        <li>
+        {% for category in site.categories %}
+          <a>{{ category[0] }}</a>
+          <ul>
+            {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %} {% endfor %} {% endfor %}
+          </ul>
+        {% endfor %}
+        </li>
       </ul>
     </nav>
     <!-- </div> -->
