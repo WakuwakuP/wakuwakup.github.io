@@ -2,17 +2,20 @@
 layout: default
 ---
 
-    <div id="Blogs">
-      <div class="fh5co-cards">
-        <div class="container-fluid">
-          <div class="row animate-box">
-            <div class="col-md-12 heading text-center">
-              <h2>{{ page.title }}</h2>
-            </div>
-            <div class="col-md-12 animate-box fadeInUp animated">
-              <h2>{{ content }}</h2>
-            </div>
-          </div>
+<div id="Blogs">
+  <div class="fh5co-cards">
+    <div class="container-fluid">
+      <div class="row animate-box">
+        <div class="col-md-12 heading text-center">
+          <h2>{{ page.title }}</h2>
+        </div>
+        <div class="col-md-12 animate-box fadeInUp animated">
+          <h2>{{ content }}</h2>
+        </div>
+        <div class="col-md-12 heading text-center">
+          Written on {{ page.date | date: "%B %e, %Y" }}
         </div>
       </div>
     </div>
+  </div>
+</div>
