@@ -6,7 +6,16 @@ layout: default
   <div class="fh5co-cards">
     <div class="container-fluid">
       <div class="row animate-box">
-        <div class="col-lg-2 col-md-2 col-sm-0"> </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          {% for category in site.categories %}
+          <h4>{{ category[0] }}</h4>
+          <ul>
+            {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %} {% endfor %} {% endfor %}
+          </ul>
+          {% endfor %}
+        </div>
         <div class"col-lg-8 col-md-8 col-sm-12">
           <div class="col-md-12 sheading text-center">
             <h2>{{ page.title }}</h2>
