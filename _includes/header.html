@@ -12,6 +12,19 @@
           <a href="/">Home</a>
         </li>
         <li>
+          <a href="#" class="fh5co-sub-ddown">Blogs</a>
+          {% for category in site.categories %}
+          <ul class="fh5co-sub-menu">
+            <a href="#">{{ category[0] }}</a>
+            <ul class="fh5co-sub-menu">
+              {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %} {% endfor %} {% endfor %}
+            </ul>
+          </ul>
+          {% endfor %}
+        </li>
+        <li>
           <a href="#" class="fh5co-sub-ddown">Dropdown</a>
            <ul class="fh5co-sub-menu">
             <li><a href="#">GPGPU</a>
@@ -24,19 +37,6 @@
             <li><a href="https://wakuwakup.net/Kadai_no_Hakaba/">Documents</a></li>
             <li><a href="https://wakuwakup.net/tokuron/">Tokuron</a></li>
           </ul>
-        </li>
-        <li>
-          <a href="#" class="fh5co-sub-ddown">Blogs</a>
-          {% for category in site.categories %}
-          <ul>
-            <a href="#">{{ category[0] }}</a>
-            <ul class="fh5co-sub-menu">
-              {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %} {% endfor %} {% endfor %}
-            </ul>
-          </ul>
-          {% endfor %}
         </li>
         <li>
           <a href="/about.html" class="fh5co-sub-ddown">About</a>
