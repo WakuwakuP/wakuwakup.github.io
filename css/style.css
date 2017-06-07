@@ -38,6 +38,11 @@ body {
   }
 }
 
+div#blogs img {
+  width: 100%;
+  text-align: center;
+}
+
 ::-webkit-selection {
   color: #ffffff;
   background: #57cecd;
