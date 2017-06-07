@@ -421,3 +421,4 @@
 
 
 }());
+$('div#blogs img').parent().css('text-align','center');
