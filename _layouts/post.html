@@ -6,7 +6,21 @@ layout: default
   <div class="fh5co-cards">
     <div class="container-fluid">
       <div class="row animate-box">
-        <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class"col-lg-push-8 col-md-push-8 col-sm-12 ">
+          <div class="row">
+            <div class="col-md-12 sheading text-center">
+              <h2>{{ page.title }}</h2>
+              <p>{{ page.category }}</p>
+            </div>
+            <div class="col-md-12 animate-box fadeInUp animated">
+              {{ content }}
+            </div>
+            <div class="col-md-12 heading text-center">
+              Written on {{ page.date | date: "%B %e, %Y" }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-pull-4 col-md-pull-4 col-sm-12 sheading">
           {% for category in site.categories %}
           <h4>{{ category[0] }}</h4>
           <ul>
@@ -15,18 +29,6 @@ layout: default
             {% endif %} {% endfor %} {% endfor %}
           </ul>
           {% endfor %}
-        </div>
-        <div class"col-lg-8 col-md-8 col-sm-12">
-          <div class="col-md-12 sheading text-center">
-            <h2>{{ page.title }}</h2>
-            <p>{{ page.category }}</p>
-          </div>
-          <div class="col-md-12 animate-box fadeInUp animated">
-            {{ content }}
-          </div>
-          <div class="col-md-12 heading text-center">
-            Written on {{ page.date | date: "%B %e, %Y" }}
-          </div>
         </div>
         <div>
           <div class="col-lg-6 col-md-6 col-sm-12 heading text-center">
