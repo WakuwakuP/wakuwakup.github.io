@@ -13,14 +13,16 @@
         </li>
         <li>
           <a href="#" class="fh5co-sub-ddown">Blogs</a>
-          {% for category in site.categories %}
           <ul class="fh5co-sub-menu">
-            <a href="#">{{ category[0] }}</a>
-            <ul class="fh5co-sub-menu">
-              {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %} {% endfor %} {% endfor %}
-            </ul>
+            {% for category in site.categories %}
+            <li>
+              <a href="#">{{ category[0] }}</a>
+              <ul class="fh5co-sub-menu">
+                {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %} {% endfor %} {% endfor %}
+              </ul>
+            </li>
           </ul>
           {% endfor %}
         </li>
