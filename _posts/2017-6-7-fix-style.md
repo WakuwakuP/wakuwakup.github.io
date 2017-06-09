@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UIの更新をした
+title: ブログのUIの更新をした
 category: Development
 tag:
  - web
