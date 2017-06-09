@@ -23,9 +23,14 @@ MinimServerをダウンロード．
 wget http://jminim.com/brac/MinimServer-0.8.4-linux-armhf.tar.gz
 ```
 
+作業フォルダを作る
+```
+mkdir minimserver
+```
+
 tarを移動．
 ```
-sudo mv MinimServer-0.8.4-linux-armhf.tar ~/minimserver
+sudo mv MinimServer-0.8.4-linux-armhf.tar minimserver
 ```
 
 tarを移動したディレクトリに移る．
