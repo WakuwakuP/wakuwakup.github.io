@@ -15,7 +15,7 @@ VolumioをインストールしたRaspberry Piにログイン．
 
 Javaをインストール．
 ```
-$ sudo apt-get update && sudo apt-get install oracle-java8-jdk
+sudo apt-get update && sudo apt-get install oracle-java8-jdk
 ```
 
 MinimServerをダウンロード．
@@ -30,22 +30,22 @@ sudo mv MinimServer-0.8.4-linux-armhf.tar ~/minimserver
 
 tarを移動したディレクトリに移る．
 ```
-$ cd /home/pi/minimserver
+cd /home/pi/minimserver
 ```
 
 tarを解凍．
 ```
-$ tar -zxvf MinimServer-0.8.4-linux-armhf.tar.gz
+tar -zxvf MinimServer-0.8.4-linux-armhf.tar.gz
 ```
 
 MinimServerのセットアップ．
 ```
-$ minimserver/bin/setup
+minimserver/bin/setup
 ```
 
 MinimServerをスタート．
 ```
-$ minimserver/bin/startc
+minimserver/bin/startc
 ```
 
 ここでLibrary のdirectoryを入力
