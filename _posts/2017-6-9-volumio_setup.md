@@ -54,5 +54,6 @@ $ minimserver/bin/startc
 #/mnt/USB
 ```
 
-苦労することなくこんな感じでDLNAサーバーは完成
+苦労することなくこんな感じでDLNAサーバーは完成．
 
+USBを差し込めばLibrary更新時に勝手に追加されるしすごく便利．
