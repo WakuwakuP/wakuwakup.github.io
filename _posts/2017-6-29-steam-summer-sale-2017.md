@@ -23,10 +23,10 @@ STEAM Summer Sale中だったのでゲーム買いました．
 
 このゲームは昔PS3 Store(米国)でデモで遊んだ記憶があって面白かったイメージがあったので買いました．
 
-<iframe src="http://store.steampowered.com/widget/204360/16675/" frameborder="0" width="646" height="190"></iframe>
+<iframe class="visible-lg visible-md" src="http://store.steampowered.com/widget/204360/16675/" frameborder="0" width="646" height="190"></iframe>
 
 ## TRANSFORMERS: Devastation
 
 プラチナゲームズのゲームがやりたかったので日本販売されていなかったので買いました．
 
-<iframe src="http://store.steampowered.com/widget/338930/56600/" frameborder="0" width="646" height="190"></iframe>
+<iframe class="visible-lg visible-md" src="http://store.steampowered.com/widget/338930/56600/" frameborder="0" width="646" height="190"></iframe>
