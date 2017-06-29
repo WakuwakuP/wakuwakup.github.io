@@ -19,14 +19,14 @@ STEAM Summer Sale中だったのでゲーム買いました．
 
 プレイしたらプレイ動画と共に紹介しようと思います．
 
-## Castle Crashers
+## [Castle Crashers](http://store.steampowered.com/app/204360/Castle_Crashers/)
 
 このゲームは昔PS3 Store(米国)でデモで遊んだ記憶があって面白かったイメージがあったので買いました．
 
-<iframe class="visible-lg visible-md" src="http://store.steampowered.com/widget/204360/16675/" frameborder="0" width="646" height="190"></iframe>
+<iframe class="hidden-xs" src="http://store.steampowered.com/widget/204360/16675/" frameborder="0" width="646" height="190"></iframe>
 
-## TRANSFORMERS: Devastation
+## [TRANSFORMERS: Devastation](http://store.steampowered.com/app/338930/TRANSFORMERS_Devastation/)
 
 プラチナゲームズのゲームがやりたかったので日本販売されていなかったので買いました．
 
-<iframe class="visible-lg visible-md" src="http://store.steampowered.com/widget/338930/56600/" frameborder="0" width="646" height="190"></iframe>
+<iframe class="hidden-xs" src="http://store.steampowered.com/widget/338930/56600/" frameborder="0" width="646" height="190"></iframe>
