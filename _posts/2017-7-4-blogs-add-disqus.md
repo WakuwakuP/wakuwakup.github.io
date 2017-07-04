@@ -7,7 +7,7 @@ tag:
  - disqus
 ---
 
-ブログに[**DISQUS**](https:disqus.com)を追加しました．
+ブログに[**DISQUS**](https://disqus.com)を追加しました．
 
 これでコメントできると思います.
 
