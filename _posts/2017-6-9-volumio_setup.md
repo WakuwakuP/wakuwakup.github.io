@@ -2,6 +2,7 @@
 layout: post
 title: Volumio + MinimServer
 category: Development
+comments: true
 tag:
  - raspberrypi
  - volumio

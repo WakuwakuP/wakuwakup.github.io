@@ -2,6 +2,7 @@
 layout: post
 title: MySQL-pythonを使ってみた
 category: Development
+comments: true
 tag:
  - raspberrypi
  - MySQL
@@ -37,7 +38,7 @@ for row in result:
 	else:
 		print "UserData_presence -- false"
 
-		
+
 # update文の使い方はここ
 # >UPDATE "テーブル名" set "変更するカラム名" = "変更する値" where "変更するのを検索するカラム名" = "中身"
 

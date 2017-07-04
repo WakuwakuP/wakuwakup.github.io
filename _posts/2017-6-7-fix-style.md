@@ -2,6 +2,7 @@
 layout: post
 title: ブログのUIの更新をした
 category: Development
+comments: true
 tag:
  - web
 ---
@@ -10,7 +11,7 @@ tag:
 
 ### 修正点
  * スマートフォン表示で画像がはみ出る
- 
+
 ### 修正方法
 
 CSSに追記
