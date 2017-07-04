@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DISQUS
+title: ブログの更新 DISQUS 追加
 category: Development
 comments: true
 tag:
