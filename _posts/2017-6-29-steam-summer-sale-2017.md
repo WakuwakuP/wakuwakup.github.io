@@ -3,6 +3,7 @@ layout: post
 title: steam Summer sale
 category: Hobby
 thumb: steam_summer.png
+comments: true
 tag:
  - Castle Crashers
  - TRANSFORMERS Devastation
