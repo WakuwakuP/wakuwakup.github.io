@@ -10,23 +10,21 @@ layout: default
           <h2>Blogs</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row row-eq-height">
         {% for post in site.posts %}
-        <div class="row-eq-height">
-          <div class="col-sm-6 col-md-4 col-lg-3 animate-box">
-            <a class="fh5co-card" href="{{ site.baseurl }}{{ post.url }}#blogs">
-              {% if post.thumb %}
-              <img src="{{ site.baseurl }}/img/thumb/{{ post.thumb }}" alt="Free HTML5 Bootstrap template" class="img-responsive">
-              {% else %}
-              <img src="/images/img_large_1.jpg" alt="Free HTML5 Bootstrap template" class="img-responsive">
-              {% endif %}
-              <div class="fh5co-card-body">
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.date | date: "%B %e, %Y" }}</p>
-                <p>{{ post.category }}</p>
-              </div>
-            </a>
-          </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 animate-box">
+          <a class="fh5co-card" href="{{ site.baseurl }}{{ post.url }}#blogs">
+            {% if post.thumb %}
+            <img src="{{ site.baseurl }}/img/thumb/{{ post.thumb }}" alt="Free HTML5 Bootstrap template" class="img-responsive">
+            {% else %}
+            <img src="/images/img_large_1.jpg" alt="Free HTML5 Bootstrap template" class="img-responsive">
+            {% endif %}
+            <div class="fh5co-card-body">
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.date | date: "%B %e, %Y" }}</p>
+              <p>{{ post.category }}</p>
+            </div>
+          </a>
         </div>
         {% endfor %}
       </div>
