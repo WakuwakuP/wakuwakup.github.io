@@ -70,6 +70,7 @@ $sans-serif : 'Roboto', arial, sans-serif;
   	display: -ms-flexbox;      
   	display: -webkit-flex;     
   	display: flex;             
+	flex-wrap: wrap;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
