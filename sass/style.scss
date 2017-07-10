@@ -77,11 +77,6 @@ $sans-serif : 'Roboto', arial, sans-serif;
 	-moz-flex-wrap: wrap;
 }
 
-.row-eq-height {
-	@include flex();
-	@include flexwrap();
-}
-
 html, body {
 	&.fh5co-overflow {
 		overflow-x: auto;
