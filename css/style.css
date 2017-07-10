@@ -7,12 +7,6 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 //////////////////////////////////////////////////////
 */
 
-
-.row-eq-height {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify/themify.eot?-fvbane");
