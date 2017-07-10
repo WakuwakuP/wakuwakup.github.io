@@ -6,6 +6,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
 */
+
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify/themify.eot?-fvbane");
@@ -1893,3 +1894,4 @@ a > img.fh5co-align-center {
     filter: blur(10px) saturate(2);
     filter: url(../img/filters.xml#blur_saturate);
 }
+
