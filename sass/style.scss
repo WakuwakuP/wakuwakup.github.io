@@ -78,8 +78,8 @@ $sans-serif : 'Roboto', arial, sans-serif;
 }
 
 .row-eq-height {
-	@include flex;
-	@include flexwrap;
+	@include flex();
+	@include flexwrap();
 }
 
 html, body {
