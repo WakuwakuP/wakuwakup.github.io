@@ -1,6 +1,6 @@
 ---
 layout: post
-title: オルテンシア学園 チームサイトの更新
+title: UPDATE!! オルテンシア学園
 category: Development
 comments: true
 tag:
