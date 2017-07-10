@@ -6,6 +6,11 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
 */
+.row-eq-height {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+}
 
 @font-face {
   font-family: 'themify';
