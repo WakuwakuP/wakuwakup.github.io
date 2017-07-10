@@ -6,6 +6,18 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
 */
+
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  .panel {
+    height: 100%;
+  }
+}
+
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify/themify.eot?-fvbane");
@@ -1894,12 +1906,3 @@ a > img.fh5co-align-center {
     filter: url(../img/filters.xml#blur_saturate);
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  .panel {
-    height: 100%;
-  }
-}
