@@ -33,7 +33,7 @@ tag:
 
 かなり苦しみながら頑張ってデザインを作りましたが残念なことにbootstrapを使って妥協しました.
 
-![design.png]({{ site.baseurl }}/img/2017/07/23/design.png)
+![design.png]({{ site.baseurl }}/img/2017/08/23/design.png)
 
 というわけで今後も開発を続けていきます．
 
