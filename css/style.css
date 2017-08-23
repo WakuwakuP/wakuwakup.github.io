@@ -7,6 +7,12 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 //////////////////////////////////////////////////////
 */
 
+#blogs > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
