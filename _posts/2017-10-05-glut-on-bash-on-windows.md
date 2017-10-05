@@ -57,7 +57,7 @@ WindowsにXmingを導入します.
 さらにBash上で以下のコマンドを入力してGUIを使えるようにします.
 
 ```
-$ sudo apt-get insall x11-apps
+$ sudo apt-get install -y x11-apps
 ```
 
 ## bashの設定
