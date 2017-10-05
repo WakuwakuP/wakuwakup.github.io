@@ -57,7 +57,7 @@ WindowsにXmingを導入します.
 さらにBash上で以下のコマンドを入力してGUIを使えるようにします.
 
 ```
-sudo apt-get insall x11-apps
+$ sudo apt-get insall x11-apps
 ```
 
 ## bashの設定
@@ -71,7 +71,7 @@ Xming server:0.0
 のようになっているはずなので，bash上で以下のコマンドを入力します．
 
 ```
-export DISPLAY=localhost:0.0
+$ export DISPLAY=localhost:0.0
 ```
 
 最後の0.0は上で確認した．Xming server:○.○の〇.〇の値を入力します.
@@ -79,7 +79,7 @@ export DISPLAY=localhost:0.0
 設定できているはずなのでxeyesで動作確認をします.
 
 ‘‘‘
-xeyes &
+$ xeyes &
 ‘‘‘
 
 とりあえずこれで設定が完了しました.
@@ -91,7 +91,7 @@ xeyes &
 起動時に毎回Display設定をするのが面倒だから以下のコマンドを入力します.
 
 ```
-echo export DISPLAY=localhost:0.0 >> ~/.bashrc
+$ echo export DISPLAY=localhost:0.0 >> ~/.bashrc
 ```
 
 #### freeglutを使ったプログラムのコンパイルを改善する
@@ -99,11 +99,11 @@ echo export DISPLAY=localhost:0.0 >> ~/.bashrc
 コンパイル時にコマンドが長いので楽をするために以下のコマンドを入力する.
 
 ```
-echo 'function ccgl() { cc -I/usr/X11R6/include "$@" -L/usr/X11R6/lib -lglut -lGLU -lGL -lXmu -lXi -lXext -lX11 -lm -lpthread; }' >> ~/.bashrc
+$ echo 'function ccgl() { cc -I/usr/X11R6/include "$@" -L/usr/X11R6/lib -lglut -lGLU -lGL -lXmu -lXi -lXext -lX11 -lm -lpthread; }' >> ~/.bashrc
 ```
 
 これで以下コマンドでコンパイルできるようになります.
 
 ```
-ccgl program.c
+$ ccgl program.c
 ```
