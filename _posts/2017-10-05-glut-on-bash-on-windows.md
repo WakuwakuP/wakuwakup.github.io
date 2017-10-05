@@ -30,18 +30,18 @@ glutといったらここにたどり着くであろう,以下のサイトの導
 
 [GLUTによる「手抜き」OpenGL入門](https://tokoik.github.io/opengl/libglut.html)
 
-以下のコマンドを叩きます
+以下のコマンドを叩きます.
 
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install -y freeglut3 freeglut3-dev
 ```
 
-これでfreeglutのインストールが完了です
+これでfreeglutのインストールが完了です.
 
 ## Xmingの準備
 
-WindowsにXmingを導入します
+WindowsにXmingを導入します.
 
 現状のbash on WindowsではGUIが使えません．ということはGLUTで書いたプログラムを走らせてもエラーが出ます．
 
@@ -62,15 +62,15 @@ WindowsにXmingを導入します
 Xming server:0.0
 ```
 
-のようになっているはずなので，bash上で以下のコマンドを入力する．
+のようになっているはずなので，bash上で以下のコマンドを入力します．
 
 ```
 export DISPLAY=localhost:0.0
 ```
 
-最後の0.0は上で確認した．Xming server:○.○の〇.〇の値を入力する.
+最後の0.0は上で確認した．Xming server:○.○の〇.〇の値を入力します.
 
-設定できているはずなのでxeyesで動作確認をする
+設定できているはずなのでxeyesで動作確認をします.
 
 ‘‘‘
 xeyes &
@@ -82,7 +82,7 @@ xeyes &
 
 #### bashを起動する毎にDISPLAYの設定をする
 
-起動時に毎回Display設定をするのが面倒だから以下のコマンドを入力する.
+起動時に毎回Display設定をするのが面倒だから以下のコマンドを入力します.
 
 ```
 echo export DISPLAY=localhost:0.0 >> ~/.bashrc
@@ -96,7 +96,7 @@ echo export DISPLAY=localhost:0.0 >> ~/.bashrc
 echo 'function ccgl() { cc -I/usr/X11R6/include "$@" -L/usr/X11R6/lib -lglut -lGLU -lGL -lXmu -lXi -lXext -lX11 -lm -lpthread; }' >> ~/.bashrc
 ```
 
-これで以下コマンドでコンパイルできるようになる
+これで以下コマンドでコンパイルできるようになります.
 
 ```
 ccgl program.c
