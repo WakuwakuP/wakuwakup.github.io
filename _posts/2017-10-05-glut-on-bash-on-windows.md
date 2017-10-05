@@ -54,6 +54,12 @@ WindowsにXmingを導入します.
 
 ダウンロードしたファイルをインストールし，Xmingを起動する．
 
+さらにBash上で以下のコマンドを入力してGUIを使えるようにします.
+
+```
+sudo apt-get insall x11-apps
+```
+
 ## bashの設定
 
 ステータスバーのXmingにマウスカーソルを乗せると
