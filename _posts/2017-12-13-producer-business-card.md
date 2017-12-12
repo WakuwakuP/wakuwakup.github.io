@@ -10,7 +10,7 @@ tag:
 
 ## はじめに
 
-この記事は アイマストドン内非公式「ジョンベベベント・カレンダー」 Advent Calendar 2017の13日目の記事です.  by [WakuwakuP](https://imastodon.net/@WakuwakuP)
+この記事は [アイマストドン内非公式「ジョンベベベント・カレンダー」 Advent Calendar 2017](https://adventar.org/calendars/2762)の13日目の記事です.  by [WakuwakuP](https://imastodon.net/@WakuwakuP)
 
 12日目は [ケー](https://imastodon.net/@ke_odakyu9000)さん : [Python未経験者がPythonでTwitterAPIを叩いた話](https://qiita.com/ke9000/items/cffbb7bdab4a2606fc10)でした．
 
