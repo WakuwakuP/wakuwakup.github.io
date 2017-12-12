@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jsはいいぞ(P名刺について)
-category: security
+category: im@stodon
 comments: true
 tag:
  - im@stodon
