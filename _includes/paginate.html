@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
-<div class="row animate-box fadeInUp animated pagination">
+<div class="row animate-box fadeInUp animated">
   <div class="col-md-12 text-center">
-    <h5 class="h2">
+    <h5 class="h2 pagination">
       {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; new</a>
       {% else %}
