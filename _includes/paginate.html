@@ -1,9 +1,9 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<div class="col-md-8 col-md-offset-2 animate-box fadeInUp animated pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; new</a>
   {% else %}
-    <span>&laquo; Prev</span>
+  <span>&laquo; new</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -17,9 +17,9 @@
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">old &raquo;</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span>old &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
