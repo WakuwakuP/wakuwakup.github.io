@@ -18,21 +18,21 @@ layout: default
         </div>
         <div class="col-md-12 animate-box fadeInUp animated">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading text-center">
-            {% if page.previous %}
-            <a class="fh5co-card" href="https://www.wakuwakup.net{{ page.previous.url }}#blogs">
-              <div class="fh5co-card-body">
-                <h3>old</h3>
-                <p>{{ page.previous.title }}</p>
-              </div>
-            </a>
-            {% endif %}
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading text-center">
             {% if page.next %}
             <a class="fh5co-card" href="https://www.wakuwakup.net{{ page.next.url }}#blogs">
               <div class="fh5co-card-body">
                 <h3>new</h3>
                 <p>{{ page.next.title }}</p>
+              </div>
+            </a>
+            {% endif %}
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading text-center">
+            {% if page.previous %}
+            <a class="fh5co-card" href="https://www.wakuwakup.net{{ page.previous.url }}#blogs">
+              <div class="fh5co-card-body">
+                <h3>old</h3>
+                <p>{{ page.previous.title }}</p>
               </div>
             </a>
             {% endif %}
