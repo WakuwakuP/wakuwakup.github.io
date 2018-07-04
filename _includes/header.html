@@ -13,10 +13,10 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for category in site.categories %}
             <!-- <li class="dropdown-item"> -->
-              <!-- <a href="#">{{ category[0] }}</a> -->
-                {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
+              <a href="#">{{ category[0] }}</a>
+                <!-- {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
                 <a class="dropdown-item" href="{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>
-                {% endif %} {% endfor %} {% endfor %}
+                {% endif %} {% endfor %} {% endfor %} -->
               <!-- </ul> -->
             <!-- </li> -->
             {% endfor %}
