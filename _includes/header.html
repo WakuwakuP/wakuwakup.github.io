@@ -12,9 +12,9 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {% for category in site.categories %}
-            <li class="dropdown-submenu">
+            <li class="dropdown-item dropdown-menu">
               <a href="#">{{ category[0] }}</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-item">
                 {% for posts in category %} {% for post in posts %} {% if post.title != nil %}
                 <li><a href="{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a></li>
                 {% endif %} {% endfor %} {% endfor %}
