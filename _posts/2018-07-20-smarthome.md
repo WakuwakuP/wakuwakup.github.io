@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 自宅のスマートホーム化が進んだ
-category: smarthome
+category: SmartHome
 comments: true
 tag:
  - Amazon_Echo_dot
