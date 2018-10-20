@@ -48,7 +48,7 @@ RT2600acを買ったタイミングで見つけて応募したら行けるよう
 
 ### Moments
 
-![Moments]({{ site.baseurl }}/img/2018/10/21/06.jpg)
+![DSM7.0 image]({{ site.baseurl }}/img/2018/10/21/06.jpg)
 
 画像補正機能が付くみたいです．
 またLive Photosに対応するようで，iOS勢の僕はありがたい限りです．
@@ -111,7 +111,7 @@ SSDNASという変態プレイしろという挑戦状な気がします．
 
 ## 恒例の抽選会＋クイズ大会
 
-![session 2]({{ site.baseurl }}/img/2018/10/21/12.jpg)
+![session 2]({{ site.baseurl }}/img/2018/10/21/13.jpg)
 
 景品が豪華でした．
 
