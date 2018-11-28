@@ -727,7 +727,7 @@ textarea {
   bottom: 0;
   z-index: -1;
   background: #57cecd;
-  opacity: .97;
+  opacity: .75;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {
