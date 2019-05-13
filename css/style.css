@@ -25,7 +25,12 @@ tr {
   border: solid 1px #8b969c;
 }
 
-th, td {
+th {
+  border: solid 1px #8b969c;
+  padding: 0 10px;
+}
+
+td {
   border: solid 1px #8b969c;
   padding: 0 10px;
 }
