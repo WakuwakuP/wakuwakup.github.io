@@ -13,6 +13,27 @@ p > img {
   max-width: 100%;
 }
 
+table {
+  border: solid #8b969c 1px;
+}
+
+thead tr {
+  background-color: #dff;
+}
+
+tr {
+  border: solid 1px #8b969c;
+}
+
+th {
+  border: solid 1px #8b969c;
+}
+
+td {
+  border: solid 1px #8b969c;
+}
+
+
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
