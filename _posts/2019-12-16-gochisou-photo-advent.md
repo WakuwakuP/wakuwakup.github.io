@@ -3,6 +3,7 @@ layout: post
 title: エビが食べたかったらここに行け
 category: Hobby
 comments: true
+thumb: ebi.jpg
 ---
 ## 前書き
 
